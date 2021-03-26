@@ -13,7 +13,7 @@ public class Q0Stack {
         if(TOP==-1) {
             System.out.println("No elements present");
         } else  {
-            return stack[TOP--];
+            System.out.println(stack[TOP]);
         }
         return -1;
 
